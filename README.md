@@ -1,4 +1,4 @@
-# MonteCarloPi
+# Aproximacion a traves de la recursividad con el metodo de MonteCarlo de Pi
 
 Este programa en Java implementa un método iterativo que permite obtener una aproximación al número Pi mediante el método de Montecarlo. 
 
@@ -10,7 +10,11 @@ Este programa en Java implementa un método iterativo que permite obtener una ap
 
 ## Introducción
 
-Este programa implementa un algoritmo iterativo para obtener una aproximación al número Pi mediante el método de Montecarlo. La clase `Matematicas` proporciona la funcionalidad necesaria para realizar este cálculo.
+Este proyecto contiene implementaciones en Java del método de Montecarlo para aproximar el valor de Pi. El código se organiza en dos clases principales:
+
+- **Matematicas.java:** Contiene métodos para generar aproximaciones de Pi tanto de forma iterativa como recursiva utilizando el método de Montecarlo.
+
+- **Principal.java:** Es la clase principal del programa que muestra el resultado de las aproximaciones de Pi.
 ## Manual de Instalación
 
 Para instalar y utilizar este programa, primero asegúrese de tener instalado el [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html) en su computadora.
@@ -18,12 +22,12 @@ Para instalar y utilizar este programa, primero asegúrese de tener instalado el
 Luego, clone este repositorio en su computadora utilizando el siguiente comando en la terminal o línea de comandos:
 
 ```bash
-git clone https://github.com/enzohuin/practicaPr2.git
+git clone https://github.com/enzohuin/practica2Pr2.git
 
 ```
 Para acceder al directorio del proyecto utiliza el comando:
 ```
-cd practicaPr2
+cd practica2Pr2
 ```
 Para compilar puede usar el camando:
 ```
@@ -44,5 +48,7 @@ java -jar pi.jar <numero de pasos>
 ```
 Ejemplo:
 ```
-java -jar pi.jar <1000000>
+java -jar pi.jar <1000>
 ```
+ADVERTENICIA:
+Si pone un numero de pasos superior a 4917 al ejecutar el programa le va a dar error. Asi que para que funcione correctamente el numero de pasos debera ser inferior a tal numero. Disculpe las molestias.
