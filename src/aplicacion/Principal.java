@@ -22,6 +22,5 @@ public class Principal {
         System.out.println("El número PI es " + Matematicas.generarNumeroPiRecursivo(pasos));
     }
 }
-    }
-}
+
 
